@@ -1,0 +1,19 @@
+{
+  "name": "list-to-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss style.css --dir build",
+    "watch:css": "postcss style.css --dir build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^9.0.0"
+  }
+}

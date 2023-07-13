@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #22223b;
+}
+main {
+  width: min(100%, 1230px);
+  margin: 1.875rem auto;
+  padding-inline: 1rem;
+}
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+  & label {
+    input {
+      appearance: none;
+      position: absolute;
+    }
+    svg {
+      vertical-align: middle;
+    }
+  }
+}
+  
