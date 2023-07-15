@@ -6,6 +6,7 @@ module.exports = {
         presetEnv({
             stage: 2,
             autoprefixer: false,
+            // logical-properties-and-values: false,
         }),
         cssNano({ preset: "default"})
     ]
